@@ -5,8 +5,8 @@ const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
   // model: "gemma-3-27b",
-  model: "gemini-2.0-flash",
-  // model: "gemini-3-pro",
+  // model: "gemini-2.0-flash",
+  model: "gemini-3-pro",
 });
 
 const generationConfig = {
